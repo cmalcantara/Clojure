@@ -546,7 +546,7 @@ reduce +
 [Problem 81: Set Intersection [Easy]](http://www.4clojure.com/problem/81)
 
 ```clojure
-(fn [a b] (set (filter #(contains? b %) a)))
+(comp set filter)
 ```
 
 [Problem 82: Word Chains [Hard]](http://www.4clojure.com/problem/82)
